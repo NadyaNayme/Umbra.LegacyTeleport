@@ -57,6 +57,9 @@ internal partial class TeleportWidgetPopup
 
             if (regionName == null || mapName == null || aetheryteName == null) continue;
 
+            var regionNameRowId = territory.Map.Value!.PlaceNameRegion.Row;
+            var territoryRowId = territory.RowId;
+
             var expansionNodeId = $"Ex_{expansion.RowId}";
             var regionNodeId    = $"Ex_{expansion.RowId}_{territory.Map.Value!.PlaceNameRegion.Row}";
             var aetheryteNodeId = $"Ex_{expansion.RowId}_{territory.RowId}_{gameData.RowId}";
@@ -83,15 +86,18 @@ internal partial class TeleportWidgetPopup
             );
 
             var regionNode = expansionNode.Regions[regionNodeId];
+            var partId = GetPartId(GetRegionFromRegionNamePlace(regionNameRowId), territoryRowId);
 
             regionNode.Destinations.TryAdd(
                 aetheryteNodeId,
-                new() {
-                    NodeId      = aetheryteNodeId,
-                    Name        = aetheryteName,
+                new()
+                {
+                    NodeId = aetheryteNodeId,
+                    Name = aetheryteName,
                     AetheryteId = aetheryte.AetheryteId,
-                    SubIndex    = aetheryte.SubIndex,
-                    GilCost     = aetheryte.GilCost,
+                    SubIndex = aetheryte.SubIndex,
+                    GilCost = aetheryte.GilCost,
+                    UldPartId = partId,
                 }
             );
         }
@@ -110,6 +116,59 @@ internal partial class TeleportWidgetPopup
             || entry.Ward > 0
             || EstateAetheryteIds.Contains(entry.AetheryteId);
     }
+
+    // gotten from Client::UI::Agent::AgentTeleport_Show -> sub_140C04360 -> sub_140C043D0 -> sub_140C06860
+    // sig: E8 ?? ?? ?? ?? 49 8D 4E F8 8B D8
+    // was added as a function with the new expansion so possibly unstable
+    private int GetPartId(uint region, uint territory)
+    {
+        return territory switch
+        {
+            819 => 8,
+            820 => 9,
+            958 => 11,
+            1186 or 1191 => 14,
+            _ => region switch
+            {
+                0 => 0,
+                1 => 1,
+                2 => 2,
+                3 => 4,
+                6 => 6,
+                7 => 7,
+                10 => 5,
+                12 => 10,
+                13 => 12,
+                _ => region - 16 > 1 ? 3 : 13
+            }
+        };
+    }
+
+    // gotten from Client::UI::Agent::AgentTeleport_Show -> sub_140C04360 -> sub_140C043D0 -> sub_140C064F0
+    // sig: 48 83 EC 28 0F B7 4A 08
+    private uint GetRegionFromRegionNamePlace(uint placeNameRegion) =>
+        placeNameRegion switch
+        {
+            22 => 0,
+            23 => 1,
+            24 => 2,
+            25 => 3,
+            497 => 4,
+            498 => 5,
+            26 => 8,
+            2400 => 6,
+            2402 => 7,
+            2401 => 9,
+            2950 => 11,
+            3703 => 12,
+            3702 => 13,
+            3704 => 14,
+            3705 => 15,
+            4500 => 16,
+            4501 => 17,
+            4502 => 18,
+            _ => 19
+        };
 }
 
 internal struct TeleportExpansion
@@ -135,4 +194,5 @@ internal struct TeleportDestination
     public uint   AetheryteId { get; set; }
     public byte   SubIndex    { get; set; }
     public uint   GilCost     { get; set; }
+    public int UldPartId { get; set; }
 }

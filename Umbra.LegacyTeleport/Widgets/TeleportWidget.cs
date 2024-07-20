@@ -22,7 +22,7 @@ using Umbra.Game;
 
 namespace Umbra.Widgets;
 
-[ToolbarWidget("Teleport - Legacy", "LegacyTeleport", "Widget.Teleport.Description")]
+[ToolbarWidget("LegacyTeleport", "Teleport - Legacy", "Widget.Teleport.Description")]
 internal sealed partial class TeleportWidget(
     WidgetInfo                  info,
     string?                     guid         = null,

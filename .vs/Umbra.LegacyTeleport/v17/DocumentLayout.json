@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\Git\\Umbra.LegacyTeleport\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}|Umbra.SamplePlugin\\Umbra.LegacyTeleport.csproj|d:\\git\\umbra.legacyteleport\\umbra.sampleplugin\\widgets\\teleportwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}|Umbra.SamplePlugin\\Umbra.LegacyTeleport.csproj|solutionrelative:umbra.sampleplugin\\widgets\\teleportwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|d:\\git\\umbra.legacyteleport\\umbra.legacyteleport\\widgets\\teleportwidgetpopup.data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|solutionrelative:umbra.legacyteleport\\widgets\\teleportwidgetpopup.data.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|d:\\git\\umbra.legacyteleport\\umbra.legacyteleport\\widgets\\teleportwidgetpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|solutionrelative:umbra.legacyteleport\\widgets\\teleportwidgetpopup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|d:\\git\\umbra.legacyteleport\\umbra.legacyteleport\\widgets\\teleportwidgetpopup.nodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|solutionrelative:umbra.legacyteleport\\widgets\\teleportwidgetpopup.nodes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|d:\\git\\umbra.legacyteleport\\umbra.legacyteleport\\widgets\\teleportwidget.config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|solutionrelative:umbra.legacyteleport\\widgets\\teleportwidget.config.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|d:\\git\\umbra.legacyteleport\\umbra.legacyteleport\\widgets\\teleportwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CE9D24A-6131-4C0E-819D-607A5979B5D6}|Umbra.LegacyTeleport\\Umbra.LegacyTeleport.csproj|solutionrelative:umbra.legacyteleport\\widgets\\teleportwidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Git\\Umbra.LegacyTeleport\\Umbra.SamplePlugin\\Widgets\\TeleportWidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Umbra.SamplePlugin\\Widgets\\TeleportWidget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +34,83 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TeleportWidgetPopup.cs",
+              "DocumentMoniker": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.cs",
+              "RelativeDocumentMoniker": "Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.cs",
+              "ToolTip": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.cs",
+              "RelativeToolTip": "Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T16:19:07.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TeleportWidgetPopup.Data.cs",
+              "DocumentMoniker": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Data.cs",
+              "RelativeDocumentMoniker": "Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Data.cs",
+              "ToolTip": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Data.cs",
+              "RelativeToolTip": "Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Data.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowGMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T16:19:02.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeleportWidgetPopup.Nodes.cs",
+              "DocumentMoniker": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Nodes.cs",
+              "RelativeDocumentMoniker": "Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Nodes.cs",
+              "ToolTip": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Nodes.cs",
+              "RelativeToolTip": "Umbra.LegacyTeleport\\Widgets\\TeleportWidgetPopup.Nodes.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T16:19:00.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TeleportWidget.Config.cs",
+              "DocumentMoniker": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidget.Config.cs",
+              "RelativeDocumentMoniker": "Umbra.LegacyTeleport\\Widgets\\TeleportWidget.Config.cs",
+              "ToolTip": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidget.Config.cs",
+              "RelativeToolTip": "Umbra.LegacyTeleport\\Widgets\\TeleportWidget.Config.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T16:18:45.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TeleportWidget.cs",
+              "DocumentMoniker": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidget.cs",
+              "RelativeDocumentMoniker": "Umbra.LegacyTeleport\\Widgets\\TeleportWidget.cs",
+              "ToolTip": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.LegacyTeleport\\Widgets\\TeleportWidget.cs",
+              "RelativeToolTip": "Umbra.LegacyTeleport\\Widgets\\TeleportWidget.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAqwDgAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T16:17:04.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "TeleportWidget.cs",
               "DocumentMoniker": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.SamplePlugin\\Widgets\\TeleportWidget.cs",
               "RelativeDocumentMoniker": "Umbra.SamplePlugin\\Widgets\\TeleportWidget.cs",
               "ToolTip": "D:\\Git\\Umbra.LegacyTeleport\\Umbra.SamplePlugin\\Widgets\\TeleportWidget.cs",
               "RelativeToolTip": "Umbra.SamplePlugin\\Widgets\\TeleportWidget.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-20T15:58:37.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-20T15:58:37.419Z"
             }
           ]
         }
