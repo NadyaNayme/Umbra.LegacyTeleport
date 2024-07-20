@@ -1,16 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umbra.SamplePlugin", "Umbra.SamplePlugin\Umbra.SamplePlugin.csproj", "{53E266A9-368F-40F3-9A37-BB1ED7385B06}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umbra.LegacyTeleport", "Umbra.SamplePlugin\Umbra.LegacyTeleport.csproj", "{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53E266A9-368F-40F3-9A37-BB1ED7385B06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53E266A9-368F-40F3-9A37-BB1ED7385B06}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53E266A9-368F-40F3-9A37-BB1ED7385B06}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53E266A9-368F-40F3-9A37-BB1ED7385B06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}.Debug|x64.ActiveCfg = Debug|x64
+		{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}.Debug|x64.Build.0 = Debug|x64
+		{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}.Release|x64.ActiveCfg = Release|x64
+		{4E5E17F2-B781-41F4-89A1-90DB7C7D05EA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B033956-F816-4BA4-8421-E27C47CDD3F9}
 	EndGlobalSection
 EndGlobal

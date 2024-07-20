@@ -3,23 +3,10 @@
     <PropertyGroup>
         <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
     </PropertyGroup>
-    <PropertyGroup>
-        <!-- Replace this with Umbra's directory is you have a local dev version installed. -->
-        <!-- If you have Umbra installed through Dalamud, you can leave this as-is. -->
-        <UmbraLibPath>Z:\FFXIV-plugins\una-xiv-plugins\Umbra\out\Release\</UmbraLibPath>
-    </PropertyGroup>
 
-    <Target Name="ResolveUmbraLibPath" BeforeTargets="PrepareForBuild">
-        <PropertyGroup>
-            <UmbraRootPath>$(appdata)\XIVLauncher\installedPlugins\Umbra</UmbraRootPath>
-        </PropertyGroup>
-        <ItemGroup>
-            <UmbraDirectories Include="$(UmbraRootPath)\*" />
-        </ItemGroup>
-        <PropertyGroup Condition="@(UmbraDirectories->Count()) == 1">
-            <UmbraLibPath>@(UmbraDirectories)\</UmbraLibPath>
-        </PropertyGroup>
-    </Target>
+	<PropertyGroup>
+		<UmbraLibPath>D:\Git\UmbraDev\</UmbraLibPath>
+	</PropertyGroup>
 
     <PropertyGroup>
         <TargetFramework>net8.0-windows</TargetFramework>
@@ -27,20 +14,22 @@
         <Nullable>enable</Nullable>
         <LangVersion>latest</LangVersion>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-        <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+        <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
         <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
         <OutputPath>..\out\$(Configuration)\</OutputPath>
     </PropertyGroup>
 
     <PropertyGroup>
-        <Authors>Your Name</Authors>
-        <Company>Sample Company</Company>
+        <Authors>Nadya</Authors>
+        <Company>Lovehost</Company>
         <Version>1.0.0.0</Version>
-        <Description>A description</Description>
+        <Description>Restores the early 2.0 Teleport Widget</Description>
         <Copyright>(C)2024</Copyright>
         <PackageProjectUrl>https://github.com/una-xiv/umbra</PackageProjectUrl>
         <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
         <IsPackable>false</IsPackable>
+        <BaseOutputPath>D:\Git\Umbra.LegacyTeleport\out</BaseOutputPath>
+        <PackageOutputPath>$(OutputPath)</PackageOutputPath>
     </PropertyGroup>
 
     <ItemGroup>
