@@ -2,6 +2,10 @@
 
 Recompiled code of the old single panel Teleport widget.
 
+## Installation
+
+The plugin can be installed by selecting the .dll file from [Releases](https://github.com/NadyaNayme/Umbra.LegacyTeleport/releases/latest) in Umbra's "Add Plugin" settings. The widget is named "Teleport - Legacy" and must then be added to a column in your Toolbar Widgets settings.
+
 ## Disclaimer
 
 Code is provided as-is and mostly unmodified from the original widget. A better :hover effect was added to match the menu item :hover effects and the `guid` was changed as to not conflict with the modern Teleport widget.
