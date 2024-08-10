@@ -26,41 +26,41 @@ internal sealed partial class TeleportWidget
         return [
             new BooleanWidgetConfigVariable(
                 "Decorate",
-                I18N.Translate("Widget.Teleport.Config.Decorate.Name"),
-                I18N.Translate("Widget.Teleport.Config.Decorate.Description"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.Decorate.Name"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.Decorate.Description"),
                 true
             ) { Category = I18N.Translate("Widget.ConfigCategory.WidgetAppearance") },
             new BooleanWidgetConfigVariable(
                 "DesaturateIcon",
-                I18N.Translate("Widget.Teleport.Config.DesaturateIcon.Name"),
-                I18N.Translate("Widget.Teleport.Config.DesaturateIcon.Description"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.DesaturateIcon.Name"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.DesaturateIcon.Description"),
                 false
             ) { Category = I18N.Translate("Widget.ConfigCategory.WidgetAppearance") },
             new SelectWidgetConfigVariable(
                 "DisplayMode",
-                I18N.Translate("Widget.Teleport.Config.DisplayMode.Name"),
-                I18N.Translate("Widget.Teleport.Config.DisplayMode.Description"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.DisplayMode.Name"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.DisplayMode.Description"),
                 "TextAndIcon",
                 new() {
-                    { "TextAndIcon", I18N.Translate("Widget.Teleport.Config.DisplayMode.Option.TextAndIcon") },
-                    { "TextOnly", I18N.Translate("Widget.Teleport.Config.DisplayMode.Option.TextOnly") },
-                    { "IconOnly", I18N.Translate("Widget.Teleport.Config.DisplayMode.Option.IconOnly") }
+                    { "TextAndIcon", I18N.Translate("Widgets.DefaultToolbarWidget.Config.DisplayMode.Option.TextAndIcon") },
+                    { "TextOnly", I18N.Translate("Widgets.DefaultToolbarWidget.Config.DisplayMode.Option.TextOnly") },
+                    { "IconOnly", I18N.Translate("Widgets.DefaultToolbarWidget.Config.DisplayMode.Option.IconOnly") }
                 }
             ) { Category = I18N.Translate("Widget.ConfigCategory.WidgetAppearance") },
             new SelectWidgetConfigVariable(
                 "IconLocation",
-                I18N.Translate("Widget.Teleport.Config.IconLocation.Name"),
-                I18N.Translate("Widget.Teleport.Config.IconLocation.Description"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.IconLocation.Name"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.IconLocation.Description"),
                 "Left",
                 new() {
-                    { "Left", I18N.Translate("Widget.Teleport.Config.IconLocation.Option.Left") },
-                    { "Right", I18N.Translate("Widget.Teleport.Config.IconLocation.Option.Right") }
+                    { "Left", I18N.Translate("Widgets.DefaultToolbarWidget.Config.IconLocation.Option.Left") },
+                    { "Right", I18N.Translate("Widgets.DefaultToolbarWidget.Config.IconLocation.Option.Right") }
                 }
             ) { Category = I18N.Translate("Widget.ConfigCategory.WidgetAppearance") },
             new IntegerWidgetConfigVariable(
                 "TextYOffset",
-                I18N.Translate("Widget.Teleport.Config.TextYOffset.Name"),
-                I18N.Translate("Widget.Teleport.Config.TextYOffset.Description"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.TextYOffset.Name"),
+                I18N.Translate("Widgets.DefaultToolbarWidget.Config.TextYOffset.Description"),
                 0,
                 -5,
                 5
